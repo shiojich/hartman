@@ -1,0 +1,92 @@
+%
+%Global Physical Climatology 
+%Dennis L. Hartman
+%                2016年卒業研究資料 
+%               　　塩尻千里
+%
+%
+% 2016/10/06  作成
+%
+% 日付を変更すること
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%             Style  Setting             %%%%%%%%
+% フォント: 12point (最大), 片面印刷
+\documentclass[a4j,12pt,openbib,oneside,dvipdfmx]{jbook}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%             Package Include            %%%%%%%%
+\usepackage{Dennou6}		% 電脳スタイル ver 6
+\usepackage{ascmac}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{bm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%            PageStyle Setting           %%%%%%%%
+\pagestyle{DAmyheadings}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%        Title and Auther Setting        %%%%%%%%
+%%
+%%  [ ] はヘッダに書き出される.
+%%  { } は表題 (\maketitle) に書き出される.
+
+\Dtitle{Hartman(1994)}   % 変更不可
+\Dauthor{塩尻千里}       % ゼミ担当者の名前
+\Ddate{2016/10/06}      % ゼミの日時 (毎回変更すること)
+\Dfile{hartman\_20161006.tex}  %file名
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%        Counter Output Format           %%%%%%%%
+\def\thechapter{\arabic{chapter}}
+\def\thesection{\arabic{chapter}.\arabic{section}}
+\def\thesubsection{\arabic{chapter}.\arabic{section}.\arabic{subsection}}
+\def\theequation{\arabic{chapter}.\arabic{equation}}
+\def\thepage{\arabic{page}}
+\def\thefigure{\arabic{chapter}.\arabic{figure}}
+\def\thetable{\arabic{chapter}.\arabic{section}.\arabic{table}}
+\def\thefootnote{*\arabic{footnote}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%   Set Counter (chapter, section etc. ) %%%%%%%%
+\setcounter{chapter}{1}    % 章番号
+\setcounter{section}{1}    % 節番号
+\setcounter{subsection}{0}    % 節番号
+\setcounter{equation}{0}   % 式番号
+\setcounter{page}{1}     % 必ず開始ページは明記する
+\setcounter{figure}{0}     % 図番号
+\setcounter{table}{0}      % 表番号
+\setcounter{footnote}{0}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%        Dennou-Style Definition         %%%%%%%%
+
+%% 改段落時の空行設定
+\Dparskip      % 改段落時に一行空行を入れる
+%\Dnoparskip    % 改段落時に一行空行を入れない
+
+%% 改段落時のインデント設定
+\Dparindent    % 改段落時にインデントする
+%\Dnoparindent  % 改段落時にインデントしない
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%             Text Start                 %%%%%%%%
+\begin{document}
+\markright{\arabic{chapter}.\arabic{section}熱とエネルギー} %  節の題名を書き込むこと
+\chapter{全体のエネルギーバランス}	
+\section{熱とエネルギー}
+\par
+気候変動の鍵である温度は, 分子運動に含まれるエネルギーの単位である. どのように温度が維持されるかを理解するためには, 熱力学第一法則で正式に述べられているエネルギーバランスを考えなければならない. 
+基本的な地球の全体のエネルギーバランスは, 太陽からくるエネルギーと, 地球の放射によって宇宙空間に戻されるエネルギー間のつり合いである. 地球内部におけるエネルギーの生成は, そのエネルギー収支においては無視できるほどの影響である. 
+太陽放射の吸収はほとんど地表面で行われるが, 一方で, 宇宙空間への放射のほとんどは大気から生じる. 地球大気は効率的に赤外線放射を吸収, 放射するので, 地表面は大気が存在しなかった場合に比べてより温暖である. 
+一年を通じて平均すると, 太陽エネルギーは, 極付近よりも赤道付近でより多く吸収されている. 大気と海洋は, 表面温度に対する熱の勾配の効果を減らすように極へエネルギーを輸送する. 地球の進化や気候の特徴の大半は, 太陽系内における地球の位置によって決定されてきた.
+
+\end{document}
+
