@@ -1,0 +1,97 @@
+%
+%Global Physical Climatology 
+%Dennis L. Hartman
+%                2016年卒業研究資料 
+%               　　塩尻千里
+%
+%
+% 2016/10/06  作成
+%
+% 日付を変更すること
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%             Style  Setting             %%%%%%%%
+% フォント: 12point (最大), 片面印刷
+\documentclass[a4j,12pt,openbib,oneside,dvipdfmx]{jbook}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%             Package Include            %%%%%%%%
+\usepackage{Dennou6}		% 電脳スタイル ver 6
+\usepackage{ascmac}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{bm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%            PageStyle Setting           %%%%%%%%
+\pagestyle{DAmyheadings}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%        Title and Auther Setting        %%%%%%%%
+%%
+%%  [ ] はヘッダに書き出される.
+%%  { } は表題 (\maketitle) に書き出される.
+
+\Dtitle{Hartman(1994)}   % 変更不可
+\Dauthor{塩尻千里}       % ゼミ担当者の名前
+\Ddate{2016/10/09}      % ゼミの日時 (毎回変更すること)
+\Dfile{hartman\_2\_2.tex}  %file名
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%        Counter Output Format           %%%%%%%%
+\def\thechapter{\arabic{chapter}}
+\def\thesection{\arabic{chapter}.\arabic{section}}
+\def\thesubsection{\arabic{chapter}.\arabic{section}.\arabic{subsection}}
+\def\theequation{\arabic{chapter}.\arabic{equation}}
+\def\thepage{\arabic{page}}
+\def\thefigure{\arabic{chapter}.\arabic{figure}}
+\def\thetable{\arabic{chapter}.\arabic{section}.\arabic{table}}
+\def\thefootnote{*\arabic{footnote}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%   Set Counter (chapter, section etc. ) %%%%%%%%
+\setcounter{chapter}{2}    % 章番号
+\setcounter{section}{1}    % 節番号
+\setcounter{subsection}{0}    % 節番号
+\setcounter{equation}{0}   % 式番号
+\setcounter{page}{2}     % 必ず開始ページは明記する
+\setcounter{figure}{0}     % 図番号
+\setcounter{table}{0}      % 表番号
+\setcounter{footnote}{0}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%        Dennou-Style Definition         %%%%%%%%
+
+%% 改段落時の空行設定
+\Dparskip      % 改段落時に一行空行を入れる
+%\Dnoparskip    % 改段落時に一行空行を入れない
+
+%% 改段落時のインデント設定
+\Dparindent    % 改段落時にインデントする
+%\Dnoparindent  % 改段落時にインデントしない
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%             Text Start                 %%%%%%%%
+\begin{document}
+\markright{\arabic{chapter}.2 太陽系} %  節の題名を書き込むこと
+\section{太陽系}
+\par
+地球上で生命を維持するためのエネルギー源は太陽からくる. 地球は太陽からの距離を比較的一定に保ちながら一年をかけて太陽の周囲を軌道を描いて回る. そのため私たちの太陽は安定で快適な熱と光の資源を提供する. 私たちの太陽は, 私たちの銀河である天の川において, 約$10^{11}$個ある星のうちの一つである. それは一つの星であるが, 一方で, 目に見える星の$2/3$は多重星の系にある.
+\par
+光度とは, 太陽によってエネルギーが放射されたところにおける合計の比率である. 
+太陽に比べて$10^{-4}$倍の光度がある恒星や, $10^5$倍の輝度をもつ恒星があることを私たちは知っている. それらの温度は 2000 ~ 30000 K にわたって分布している一方で, 太陽の光球の温度はおよそ 6000 K である. 
+光球は, 太陽のエネルギー放射の大部分を宇宙空間に放射する領域である. 恒星の半径は, 0.1 から 200 太陽半径に及ぶ. エネルギーは核融合によって太陽の核で生成され, そこでより軽い元素が重い元素にされ, その過程でエネルギーの放出が伴う.
+太陽のようなやや小さい星の場合, 主な順序において予想される寿命はおよそ 110 億年であり, およそ半分が過ぎてしまった. 従って太陽はさびしく, 中年で, 中くらいの輝きの星である. 
+星の進化の理論は, 太陽の光度は地球の一生, およそ 50 億年の間, 約 30$\%$で増加してきたと予測している. 
+\par
+太陽系は 9 つの惑星を含む. それらは地球型もしくは内側の惑星と, ヨブもしくは外側の惑星(図2.2)とに分類されうる.
+
+
+\end{document}
+
