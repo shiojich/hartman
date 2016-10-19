@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2015/dev/Debian) (preloaded format=platex 2016.2.9)  11 OCT 2016 14:39
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2015/dev/Debian) (preloaded format=platex 2016.2.9)  19 OCT 2016 17:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -240,14 +240,14 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 105.
  [2] [3] [4] [5]
-[6] (./hartman_chapter2.aux) ) 
+[6] [7] [8] [9] [10] (./hartman_chapter2.aux) ) 
 Here is how much of TeX's memory you used:
- 2019 strings out of 494934
- 23509 string characters out of 6180150
+ 2021 strings out of 494934
+ 23517 string characters out of 6180150
  82564 words of memory out of 5000000
- 5335 multiletter control sequences out of 15000+600000
+ 5337 multiletter control sequences out of 15000+600000
  20730 words of font info for 81 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
- 39i,11n,26p,453b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,11n,26p,453b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on hartman_chapter2.dvi (6 pages, 18328 bytes).
+Output written on hartman_chapter2.dvi (10 pages, 33580 bytes).
