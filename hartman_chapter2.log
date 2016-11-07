@@ -1,8 +1,8 @@
-This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2015/dev/Debian) (preloaded format=platex 2016.2.9)  7 NOV 2016 21:57
+This is e-pTeX, Version 3.14159265-p3.5-130605-2.6 (utf8.euc) (TeX Live 2015/dev/Debian) (preloaded format=platex 2016.2.9)  7 NOV 2016 23:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**hartman_chapter2
+**hartman_chapter2.tex
 (./hartman_chapter2.tex
 pLaTeX2e <2006/11/10> (based on LaTeX2e <2014/05/01> patch level 0)
 Babel <3.9l> and hyphenation patterns for 11 languages loaded.
@@ -240,7 +240,8 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 105.
  [2] [3] [4] [5]
-[6] [7] [8] [9] [10] [11] [12] [13] [14] (./hartman_chapter2.aux) ) 
+[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] (./hartman_chapter2.aux
+) ) 
 Here is how much of TeX's memory you used:
  2022 strings out of 494934
  23522 string characters out of 6180150
@@ -248,6 +249,6 @@ Here is how much of TeX's memory you used:
  5338 multiletter control sequences out of 15000+600000
  20730 words of font info for 81 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
- 39i,11n,26p,449b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,11n,26p,453b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on hartman_chapter2.dvi (14 pages, 44912 bytes).
+Output written on hartman_chapter2.dvi (17 pages, 55860 bytes).
